@@ -1,0 +1,27 @@
+.services-box {
+  display: inline-block;
+  margin: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+  align-content: center;
+  margin-bottom: 100px;
+  min-height: 250px;
+}
+
+.services {
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+.button-container {
+  justify-content: flex-end;
+}
+
+@media only screen and (max-width: 768px) {
+  .services {
+    margin-top: 70px;
+  }
+}

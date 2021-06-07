@@ -1,0 +1,139 @@
+.main-app {
+  width: 85%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1400px !important;
+}
+
+@media screen and (max-width: 920px) {
+  .main-app {
+    width: 90%;
+  }
+}
+
+.main-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-text {
+  text-align: center;
+  font-size: 60px;
+  padding-bottom: 170px;
+  font-weight: 400;
+}
+
+.main-text span {
+  color: #4e7dad;
+}
+
+@media screen and (max-width: 920px) {
+  .main-text {
+    margin-top: 50px;
+  }
+  .main-text {
+    font-size: 34px !important;
+    text-align: initial;
+  }
+}
+
+.box-container {
+  display: flex;
+  box-sizing: border-box;
+}
+
+.box {
+  display: inline-block;
+  margin: 10px;
+  border-radius: 5px;
+  align-content: center;
+  margin-bottom: 100px;
+  color: black;
+  min-height: 300px;
+  border: 1px solid black;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 920px) {
+  .box {
+    width: 50% !important;
+  }
+}
+
+.box-content {
+  color: black;
+  padding: 45px;
+  font-size: 1.5rem;
+}
+
+.box-content h4 {
+  font-size: 1.7rem;
+}
+
+.box-content p {
+  color: grey !important;
+}
+
+#particles-js {
+  position: absolute;
+  height: 100vh !important;
+  width: 100%;
+}
+
+.profile-box {
+  overflow: hidden;
+  text-align: center;
+}
+
+.profile-img {
+  height: 590px;
+  padding-left: 25px;
+  border-radius: 4px;
+}
+
+.about-holder {
+  padding-left: 25px;
+}
+
+.btn-container {
+  justify-content: flex-end !important;
+}
+
+.home-button {
+  justify-content: flex-end !important;
+  border: 1px solid black !important;
+}
+
+.margin-set {
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 920px) {
+  .profile-img {
+    padding: 0px !important;
+    height: 500px;
+  }
+  .about-holder {
+    margin-top: 20px;
+    padding-left: 0px;
+  }
+  .profile-box {
+    padding: 0px !important;
+    border-radius: 5px;
+  }
+  .btn-container {
+    justify-content: flex-start !important;
+  }
+  .margin-set {
+    margin-top: 0px;
+  }
+
+  .about-text {
+    line-height: 30px;
+  }
+}

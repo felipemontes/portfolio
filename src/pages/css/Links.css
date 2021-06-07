@@ -1,0 +1,56 @@
+.links-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+.link-box {
+  display: inline-block;
+  border: 2px solid black;
+  border-radius: 5px;
+  align-content: center;
+  margin-bottom: 80px;
+  margin: 10px;
+  color: black;
+  min-height: 150px;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.link-box h1 {
+  font-size: 50px;
+}
+
+.link-box p {
+  font-weight: 600;
+}
+
+.links-title {
+  font-size: 60px;
+}
+
+.links-subtitle {
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .links-container {
+    margin-top: 60px;
+  }
+
+  .link-box {
+    min-height: 80px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .links-title {
+    margin-left: 20px;
+  }
+
+  .links-subtitle {
+    margin-left: 25px;
+  }
+}

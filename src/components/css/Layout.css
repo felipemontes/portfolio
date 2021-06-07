@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400&family=Manrope:wght@300&family=Mulish:wght@600&family=Roboto:wght@900&family=Signika+Negative:wght@600&display=swap");
+
+html,
+body {
+  margin: 0px;
+}
+
+body {
+  color: black !important;
+  background-color: white;
+  font-family: "Mulish", sans-serif !important;
+}
+
+a {
+  color: black !important;
+}
