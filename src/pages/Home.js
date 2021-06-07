@@ -11,7 +11,7 @@ export default function Home() {
         <div className="main-container">
           <div className="main-text">
             Hola, soy <span>Felipe</span>. <br />
-            Soy un desarrollador Full-Stack.
+            Soy un desarrollador Full-Stack y creador de contenido.
           </div>
           <Particles
             id="particles-js"

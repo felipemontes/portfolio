@@ -23,7 +23,7 @@
 
 .main-text {
   text-align: center;
-  font-size: 60px;
+  font-size: 5vh;
   padding-bottom: 170px;
   font-weight: 400;
 }
@@ -34,10 +34,11 @@
 
 @media screen and (max-width: 920px) {
   .main-text {
-    margin-top: 50px;
+    margin-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
   }
   .main-text {
-    font-size: 34px !important;
     text-align: initial;
   }
 }
