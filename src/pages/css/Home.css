@@ -137,4 +137,8 @@
   .about-text {
     line-height: 30px;
   }
+
+  .box-content {
+    padding: 25px;
+  }
 }
