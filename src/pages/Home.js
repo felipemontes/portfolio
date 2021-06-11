@@ -10,8 +10,9 @@ export default function Home() {
       <div className="main-app">
         <div className="main-container">
           <div className="main-text">
-            Hola, soy <span>Felipe</span>. <br />
-            Soy un desarrollador Full-Stack y <br /> creador de contenido.
+            Hola, soy <span id="name">Felipe</span>. <br />
+            Soy un desarrollador Full-Stack y{" "}
+            <span id="content2"> creador de contenido.</span>
           </div>
           <Particles
             id="particles-js"
