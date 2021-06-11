@@ -18,7 +18,6 @@
   height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 .main-text {
@@ -26,6 +25,7 @@
   font-size: 3.5vw;
   padding-bottom: 170px;
   font-weight: 400;
+  margin-top: 230px;
 }
 
 #name {
@@ -45,6 +45,7 @@
     padding-right: 5px;
     font-weight: 400;
     line-height: 1.8;
+    margin-top: 190px;
   }
   #content2::before {
     content: "\a";
